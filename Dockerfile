@@ -8,7 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /app/
 
-co
+RUN python3 manage.py migrate
+RUN python3 manage.py createsuperuser
 
 EXPOSE 8000
 
