@@ -10,4 +10,4 @@ COPY . /app/
 EXPOSE 8000
 
 # ENTRYPOINT [ "python3", "manage.py", "runserver", "0.0.0.0:8000" ]
-ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:8000", "imagerekognito.wsgi"]
+ENTRYPOINT ["gunicorn", "--bind", "0.0.0.0:8000", "advertiesement.wsgi"]

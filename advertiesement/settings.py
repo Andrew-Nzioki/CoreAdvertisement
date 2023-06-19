@@ -76,10 +76,10 @@ WSGI_APPLICATION = 'advertiesement.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'test',
-        'USER': 'hfgroup',
-        'PASSWORD': 'password',
-        'HOST': 'localhost',
+        'NAME': 'advertisement',
+        'USER': 'advertisement',
+        'PASSWORD': 'advertisement',
+        'HOST': 'database-advertisement.cxvqktdxrstz.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
