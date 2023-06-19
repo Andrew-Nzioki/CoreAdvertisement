@@ -81,12 +81,10 @@ DATABASES = {
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
-    },
-    'ENGINE': 'django.db.backends.postgresql'
-    
+    }
 }
 
-ALLOWED_HOSTS = ["epicapp.com", "server-api-address", "http://localhost", ""]
+ALLOWED_HOSTS = ["epicapp.com", "server-api-address", "http://localhost", "https://start.d1b2jdam24ii1x.amplifyapp.com/"]
 
 
 # Password validation
